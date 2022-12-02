@@ -81,9 +81,10 @@ const buscarJardineiro = async(req,res) =>{
         const jardineiro = await jardineiroSchema.find(query) 
          
             res.status(200).json({
-            message : `${nome}, seu cadastro foi encontrado com sucesso!`,
+            message : `Busca realizada com sucesso!`,           
             jardineiro: jardineiro
-          })        
+           
+        })        
         
     } catch (error) {
             res.status(500).json({
