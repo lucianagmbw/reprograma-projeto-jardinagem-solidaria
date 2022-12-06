@@ -75,6 +75,7 @@ const buscarJardineiro = async(req,res) =>{
     const {nome} = req.query
     let query = {}
     if (nome) query.nome = new RegExp(nome,'i')
+  
 
     try {
     
