@@ -18,15 +18,15 @@ const doadorDeMudasSchema = new mongoose.Schema({
     endereco: {
         cep: {
             type: String,
-            required: false
+            required: true
         },
         rua: {
             type: String,
-            required: false
+            required: true
         },
         numero: {
             type: Number,
-            required: false
+            required: true
         },
         complemento: {
             type: String,

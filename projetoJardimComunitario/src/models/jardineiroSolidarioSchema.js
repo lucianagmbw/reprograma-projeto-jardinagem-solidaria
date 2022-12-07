@@ -22,11 +22,11 @@ const jardineiroSolidarioSchema = new mongoose.Schema({
         },
         rua: {
             type: String,
-            required: false
+            required: true
         },
         numero: {
             type: Number,
-            required: false
+            required: true
         },
         complemento: {
             type: String,
@@ -38,15 +38,15 @@ const jardineiroSolidarioSchema = new mongoose.Schema({
         },
         estado: {
             type: String,
-            required: false
+            required: true
         },
         cidade: {
             type: String,
-            required: false
+            required: true
         },
         bairro: {
             type: String,
-            required: false
+            required: true
         }
     },
 

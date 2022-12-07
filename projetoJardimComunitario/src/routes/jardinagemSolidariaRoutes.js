@@ -22,7 +22,7 @@ router.delete('/deletar/doador/:id',mudasController.deletarDoador)
 router.post('/cadastrar/espaco', espacoController.cadastrarEspaco)
 router.patch('/atualizar/espaco/:id',espacoController.atualizarEspaco)
 router.get('/buscar/espaco', espacoController.buscarEspaco)
-
+router.get('/buscarPorNome/espaco', espacoController.buscarEspaco)
 router.delete('/deletar/espaco/:id', espacoController.deletarEspaco)
 
 

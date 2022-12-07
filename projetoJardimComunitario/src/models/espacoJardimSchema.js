@@ -19,12 +19,12 @@ const espacoJardimSchema = new mongoose.Schema({
        
         rua: {
             type: String,
-            required: false
+            required: true
         },
              
         bairro: {
             type: String,
-            required: false
+            required: true
         },
 
         referencia: {
