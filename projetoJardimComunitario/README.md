@@ -4,13 +4,14 @@ Justificativa
 <br>
 <br>
 <div align = "center">
-<img src='./assets/principal_jardins_comunitarios.png' width = 1000 alt = 'jardins'
+<img src='./assets/jardins.jpg' width = 1000 alt = 'jardins'
 
 </div>
 <br>
 <div align = "center">
-Foto de Antoni Shkraba: https://www.pexels.com/pt-br/foto/avental-uniforme-celular-telefone-celular-7342610/
-> Este projeto é resultado do Bootcamp Back-End - Todas em Tech - { Reprograma }
+Foto de Antoni Shkraba: https://www.pexels.com/pt-br/foto/avental-uniforme-celular-telefone-celular-7342610/>
+
+Este projeto é resultado do Bootcamp Back-End - Todas em Tech - { Reprograma }
  
 </div>
 
@@ -34,32 +35,33 @@ contribuindo  para  a  melhoria  na qualidade  de vida  das  pessoas,  devido
 às  suas  funções  sociais,  ecológicas,  estéticas  
 e educativas (LOBODA e ANGELIS, 2009; SILVA et al., 2016).
 
-Essa problemática da escassez de regiões vegetadas acontece na cidade de 
-**São João de Meriti - RJ** , onde a cidade apresenta índice nulo de áreas verdes. 
+Essa problemática da escassez de regiões vegetadas acontece na cidade de **São João de Meriti - RJ** , onde a cidade apresenta índice nulo de áreas verdes. 
 RIO DE JANEIRO (Capital). Caderno Metropolitano. Rio de Janeiro, 2017. 
 
 Esse dado é preocupante uma vez que a ausência áreas verdes pode causar danos à saúde,
 baixa qualidade do ar, podendo interferir inclusive na saúde mental – especialmente no 
 que se refere ao estresse. 
 
+---
 # Impactos sociais :
 
-*Socioambiental*
-*Saúde*
-*Autoestima*
-*Aquecimento global*
-*Solidariedade*
-*Polinizadores*
-*Resgate do laço entre as pessoas da comunidade* 
-*Valorização do trabalho Coletivo*
-*Beleza e contemplação urbana*
-*Valorização da Sabedoria Popular*
+*Socioambiental* -
+*Saúde* -
+*Autoestima* -
+*Aquecimento global* -
+*Solidariedade* -
+*Polinizadores* -
+*Resgate do laço entre as pessoas da comunidade* - 
+*Valorização do trabalho Coletivo* -
+*Beleza e contemplação urbana* -
+*Valorização da Sabedoria Popular* -
 *Riqueza Cultural*
 
 
 
 
 ---
+
 #  Solução 
 
 A Jardins Comunitários é uma plataforma de conexão entre as pessoas interessadas e dispostas  a auxiliar a expandir o verde na cidade doando seu tempo, sugerindo locais de plantio, semeando, plantando, regando ou doando com recursos para esse fim. A iniciativa consiste em encurtar o caminho entre pessoas dispostas a receber essa ação socioambiental. E verdejar onde for preciso...
@@ -67,9 +69,10 @@ A Jardins Comunitários é uma plataforma de conexão entre as pessoas interessa
 
 </div>
 
----
+
 
 <div align ='justify'>
+
 #  Objetivo 
 
 Por facilitar a conexão entre pessoas que queiram  contribuir com a jardinagem, a plataforma tem como objetivo principal estimular o aumento do índice áreas verdes na cidade, com o aproveitamento de todo local onde for possível propagar o verde, através da tecnologia para sendo usada para gerar impacto socioambiental.
@@ -86,7 +89,7 @@ focado no reuso de código e a separação de conceitos em três camadas interco
 A construção do código separado em camadas permite a aplicação ficar mais leve e independente, permitindo que uma mesma lógica de negócios possa ser visualizada e  acessada através de várias interfaces.
 
 </div>
-```
+
 ```
 
   📁 projetoJardimComunitario
@@ -150,7 +153,7 @@ Para acessar as funcionalidades da plataforma é preciso que seja feito o cadast
 
 
 
-```json
+
 
 
 # Rotas
