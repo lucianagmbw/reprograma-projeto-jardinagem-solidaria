@@ -165,13 +165,13 @@ Para acessar as funcionalidades da plataforma é preciso que seja feito o cadast
 <br>
 <div align = "center">
 
-|  Método  |                  Rota                                                                Descrição                                |
+|  Método  |                  Rota                       |                                        Descrição                                |
 | :------: | :--------------------------------------------------------:     | :-------------------------------------------------------:    |
 |  `POST`  | http://localhost:7070/jardinagem/cadastrar/jardineiro          |    Cadastra novos jardineiros                                |
 |  `PATCH` | http://localhost:7070/jardinagem/atualizar/jardineiro/:id      |    Atualiza dados dos jardineiros                            |
 |  `GET`   | http://localhost:7070/jardinagem/exibirtodos/jardineiro        |    Listar todos os jardineiros                               |
 |  `GET`   | http://localhost:7070/jardinagem/buscarpornome/jardineiro      |    Busca um jardineiro passando nome por parâmetro           |
-|  `GET`   | http://localhost:7070/jardinagem/buscar/jardineiro/:id         |    Encontra registro de jardineiro buscando por ID           |
+|  `GET`   | http://localhost:7070/jardinagem/buscar/jardineiro/:id         |    Atualizar senha do usuário buscando por ID                |
 | `DELETE` | http://localhost:7070/jardinagem/deletar/jardineiro/:id        |    Deletar registro de jardineiro buscando por ID            |
 
 </div>
@@ -182,7 +182,7 @@ Para acessar as funcionalidades da plataforma é preciso que seja feito o cadast
 <br>
 <div align = "center">
 
-|  Método  |                  Rota                                                                Descrição                            |
+|  Método  |                  Rota                       |                                        Descrição                                |
 | :------: | :--------------------------------------------------------: | :-------------------------------------------------------:    |
 |  `POST`  | http://localhost:7070/jardinagem/cadastrar/doador          |    Cadastra novos doadores de mudas e sementes               |
 |  `PATCH` | http://localhost:7070/jardinagem/atualizar/doador/:id      |    Atualiza dados dos doadores de mudas e sementes           |
@@ -200,7 +200,7 @@ Para acessar as funcionalidades da plataforma é preciso que seja feito o cadast
 <br>
 <div align = "center">
 
-|  Método  |                  Rota                                                                Descrição                            |
+|  Método  |                  Rota                       |                                        Descrição                                |
 | :------: | :--------------------------------------------------------: | :-------------------------------------------------------:    |
 |  `POST`  | http://localhost:7070/jardinagem/cadastrar/espaco          |    Cadastra novos espaços para criar jardins                 |
 |  `PATCH` | http://localhost:7070/jardinagem/atualizar/espaco/:id      |    Atualiza dados dos espaços para jardins cadastrados       |
@@ -322,7 +322,7 @@ Para a execução desse projeto, foi necessário a utilização das seguintes de
 # Desenvolvedora
 
 <div align = "center">
-<img src ='./assets/foto_autora.jpg' width = 200 alt = 'autora'>
+<img src ='./assets/foto_autora.jpeg' width = 200 alt = 'autora'>
 
 [Linkedin: www.linkedin.com/in/lucianagmbw] 
 
