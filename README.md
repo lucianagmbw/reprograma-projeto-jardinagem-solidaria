@@ -93,7 +93,7 @@ A construção do código separado em camadas permite a aplicação ficar mais l
 
 ```
 
-  📁 projetoJardimComunitario
+  📁 projetoFinal
    |
    |---📁 assets
    |
@@ -238,7 +238,7 @@ Para a execução desse projeto, foi necessário a utilização das seguintes de
  - [Mongoose](https://www.npmjs.com/package/mongoose) - É uma biblioteca de programação orientada a objetos JavaScript que cria uma conexão entre MongoDB e a estrutura de aplicativo da web Express.
  <br>
 
- - [Dotenv-safe](https://www.npmjs.com/package/dotenv-safes) - Carrega variáveis de ambiente de um arquivo .env para process.env.
+ - [Dotenv](https://www.npmjs.com/package/dotenv-safes) - Carrega variáveis de ambiente de um arquivo .env para process.env.
  <br>
 
  - [Bcrypt](https://www.npmjs.com/package/bcryptjs) - Método de criptografia do tipo hash para senhas baseado no Blowfish.
@@ -248,7 +248,7 @@ Para a execução desse projeto, foi necessário a utilização das seguintes de
 
 <br>
 
-## ⚙️Dependências de desenvolvimento
+## ⚙️Dependências de Desenvolvimento
 
 - [Nodemon](https://www.npmjs.com/package/nodemon) - Ajuda no desenvolvimento de sistemas com o Node. js reiniciando automaticamente o servidor;
 <br>
@@ -281,7 +281,7 @@ Para a execução desse projeto, foi necessário a utilização das seguintes de
 2. Digite a linha abaixo para entrar na pasta correta: 
 
    ```bash
-    $ cd projetoJardimComunitario
+    $ cd projetoFinal
      ```
 
 3. Escreva a seguinte linha para instalar as dependências utilizadas nesse projeto: 
@@ -301,7 +301,10 @@ Para a execução desse projeto, foi necessário a utilização das seguintes de
 <br>
 
 ## Acesse através do link:
-
+<br>
+<a href="https://reprograma-projeto-jardinagem-solidaria-26jb-bkb0bucgn.vercel.app/">
+    <img src="./assets/vercel-logo.png" width="80" height="80" />
+</a>
 
 <br>
 
@@ -324,15 +327,18 @@ Para a execução desse projeto, foi necessário a utilização das seguintes de
 
 <div align = "center">
 <img src ='./assets/foto_autora.jpeg' width = 200 alt = 'autora'>
-
+## 🔸 Contatos:
 [Linkedin: www.linkedin.com/in/lucianagmbw] 
-
+[Curriculo: link do curriculo]
+[Github Profile: https://github.com/lucianagmbw ]  
 
 
 
 <div align ='justify'>
  
-Conhecida como Luciana santos , sou fluminense , natural de São João de Meriti - Rio de Janeiro , formada em Análise e Desenvolvimento de Sistemas pela FAETERJ-RIO, sou apaixonada por tecnologia , inovação e desenvolvimento de Software. Desenvolvedora Back-end formada pela {Reprograma} , desenvolvo API's REST na linguagem JavaScript com Node.js , com integração ao banco de dados NoSQL MongoDB. Estou à disposição para sempre aprender e contribuir com a tecnologia e inovação em prol de melhorar a vida das pessoas. 
+Sou Luciana Santos , fluminense , natural de São João de Meriti - Rio de Janeiro , formada em Análise e Desenvolvimento de Sistemas pela FAETERJ-RIO, apaixonada por tecnologia , inovação e desenvolvimento de Software. Desenvolvedora Back-end pela {Reprograma} , desenvolve API's REST na linguagem JavaScript com Node.js , com integração ao banco de dados NoSQL MongoDB.Estou à disposição para sempre aprender e contribuir com a tecnologia e inovação em prol de melhorar a vida das pessoas.
+
+
 
 <br>
 

@@ -5,16 +5,22 @@ const jardineiroController = require('../controllers/jardineiroSolidarioControll
 const mudasController = require('../controllers/doadorDeMudasController')
 const espacoController = require ('../controllers/espacoJardimController')
 
+const authController = require("../controllers/authController")
+const {checkAuth}=require("../middlewares/auth");
+
+
+
+
 router.post('/cadastrar/jardineiro',jardineiroController.criarJardineiro)
 router.patch('/atualizar/jardineiro/:id',jardineiroController.atualizarJardineiro)
-router.get('/exibirtodos/jardineiro', jardineiroController.buscarJardineiro)
+router.get('/exibirtodos/jardineiro',checkAuth, jardineiroController.buscarJardineiro)
 router.get('/buscarpornome/jardineiro', jardineiroController.buscarJardineiro)
 router.get('/buscar/jardineiro/:id',jardineiroController.buscarJardineiroPorId)
 router.delete('/deletar/jardineiro/:id',jardineiroController.deletarJardineiro)
 
 router.post('/cadastrar/doador', mudasController.criarDoadordeMudas)
 router.patch('/atualizar/doador/:id',mudasController.atualizarDoadorDeMudas)
-router.get('/exibirtodos/doador', mudasController.buscarDoadorDeMudas)
+router.get('/exibirtodos/doador',checkAuth, mudasController.buscarDoadorDeMudas)
 router.get('/buscarpornome/doador', mudasController.buscarDoadorDeMudas)
 router.get('/buscar/doador/:id',mudasController.buscarDoadorPorId)
 router.delete('/deletar/doador/:id',mudasController.deletarDoador)
