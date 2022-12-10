@@ -327,7 +327,7 @@ Para a execução desse projeto, foi necessário a utilização das seguintes de
 
 <div align = "center">
 <img src ='./assets/foto_autora.jpeg' width = 200 alt = 'autora'>
-## 🔸 Contatos:
+
 [Linkedin: www.linkedin.com/in/lucianagmbw] 
 [Curriculo: link do curriculo]
 [Github Profile: https://github.com/lucianagmbw ]  
