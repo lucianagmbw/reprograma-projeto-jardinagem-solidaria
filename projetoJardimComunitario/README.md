@@ -15,7 +15,7 @@
 </div>
 <br>
 <div align = "center">
-Foto de Antoni Shkraba: https://www.pexels.com/pt-br/foto/avental-uniforme-celular-telefone-celular-7342610/>
+Foto de Antoni Shkraba: https://www.pexels.com/pt-br/foto/avental-uniforme-celular-telefone-celular-7342610/
 
 Este projeto é resultado do Bootcamp Back-End - Todas em Tech - { Reprograma }
  
@@ -240,6 +240,7 @@ Para a execução desse projeto, foi necessário a utilização das seguintes de
 
  - [Dotenv-safe](https://www.npmjs.com/package/dotenv-safes) - Carrega variáveis de ambiente de um arquivo .env para process.env.
  <br>
+
  - [Bcrypt](https://www.npmjs.com/package/bcryptjs) - Método de criptografia do tipo hash para senhas baseado no Blowfish.
  <br>
 
@@ -291,7 +292,7 @@ Para a execução desse projeto, foi necessário a utilização das seguintes de
 4. Inicie o servidor com o comando: 
 
    ```bash
-    $ npm start
+    $ npm run dev
     ```   
 
 <br>
