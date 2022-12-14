@@ -156,6 +156,10 @@ Para acessar as funcionalidades da plataforma é preciso que seja feito o cadast
 
 # Rotas
 
+---
+utilizar o **Postman**  ou **Insomnia** para testes
+---
+
 <br>
 
 ## Métodos POST/GET/PATCH/DELETE - *Cadastrando um  novo Jardineiro Solidário* 
@@ -180,13 +184,13 @@ Para acessar as funcionalidades da plataforma é preciso que seja feito o cadast
 <div align = "center">
 
 |  Método  |                  Rota                       |                                        Descrição                                |
-| :------: | :--------------------------------------------------------: | :-------------------------------------------------------:    |
-|  `POST`  | http://localhost:7070/jardinagem/cadastrar/doador          |    Cadastra novos doadores de mudas e sementes               |
-|  `PATCH` | http://localhost:7070/jardinagem/atualizar/doador/:id      |    Atualiza dados dos doadores de mudas e sementes           |
-|  `GET`   | http://localhost:7070/jardinagem/exibirtodos/doador        |    Listar todos os doadores de mudas e sementes              |
-|  `GET`   | http://localhost:7070/jardinagem/buscarpornome/doador      |    Busca um doador passando nome por parâmetro               |
-|  `GET`   | http://localhost:7070/jardinagem/buscar/doador/:id         |    Encontra registro de doador buscando por ID               |
-| `DELETE` | http://localhost:7070/jardinagem/deletar/doador/:id        |    Deletar registro de doador buscando por ID                |
+| :------: | :-----------------------------------: | :-------------------------------------------------------:    |
+|  `POST`  | /jardinagem/cadastrar/doador          |    Cadastra novos doadores de mudas e sementes               |
+|  `PATCH` | /jardinagem/atualizar/doador/:id      |    Atualiza dados dos doadores de mudas e sementes           |
+|  `GET`   | /jardinagem/exibirtodos/doador        |    Listar todos os doadores de mudas e sementes              |
+|  `GET`   | /jardinagem/buscarpornome/doador      |    Busca um doador passando nome por parâmetro               |
+|  `GET`   | /jardinagem/buscar/doador/:id         |    Encontra registro de doador buscando por ID               |
+| `DELETE` | /jardinagem/deletar/doador/:id        |    Deletar registro de doador buscando por ID                |
 
 </div>
 <br>
@@ -198,13 +202,13 @@ Para acessar as funcionalidades da plataforma é preciso que seja feito o cadast
 <div align = "center">
 
 |  Método  |                  Rota                       |                                        Descrição                                |
-| :------: | :--------------------------------------------------------: | :-------------------------------------------------------:    |
-|  `POST`  | http://localhost:7070/jardinagem/cadastrar/espaco          |    Cadastra novos espaços para criar jardins                 |
-|  `PATCH` | http://localhost:7070/jardinagem/atualizar/espaco/:id      |    Atualiza dados dos espaços para jardins cadastrados       |
-|  `GET`   | http://localhost:7070/jardinagem/exibirtodos/espaco        |    Listar todos os espaços para jardins disponíveis          |
-|  `GET`   | http://localhost:7070/jardinagem/buscarpornome/espaco      |    Busca um responsável pelo espaço por nome                 |
-|  `GET`   | http://localhost:7070/jardinagem/buscar/espaco/:id         |    Encontra registro de espaço buscando por ID               |
-| `DELETE` | http://localhost:7070/jardinagem/deletar/espaco/:id        |    Deletar registro de espaço buscando por ID                |
+| :------: | :-----------------------------------: | :-------------------------------------------------------:    |
+|  `POST`  | /jardinagem/cadastrar/espaco          |    Cadastra novos espaços para criar jardins                 |
+|  `PATCH` | /jardinagem/atualizar/espaco/:id      |    Atualiza dados dos espaços para jardins cadastrados       |
+|  `GET`   | /jardinagem/exibirtodos/espaco        |    Listar todos os espaços para jardins disponíveis          |
+|  `GET`   | /jardinagem/buscarpornome/espaco      |    Busca um responsável pelo espaço por nome                 |
+|  `GET`   | /jardinagem/buscar/espaco/:id         |    Encontra registro de espaço buscando por ID               |
+| `DELETE` | /jardinagem/deletar/espaco/:id        |    Deletar registro de espaço buscando por ID                |
 
 </div>
 <br>
@@ -217,12 +221,12 @@ Para acessar as funcionalidades da plataforma é preciso que seja feito o cadast
 <div align = "center">
 
 |  Método  |                  Rota                       |                                        Descrição                                |
-| :------: | :--------------------------------------------------------: | :-------------------------------------------------------:    |
-|  `POST`  | http://localhost:7070/jardinagem/create                    |    Cadastrar usuário                                         |
-|     |
-|  `GET`   | http://localhost:7070/jardinagem/all                       |    Listar todos os usuários                                  |
-|  `GET`   | http://localhost:7070/jardinagem/login                     |    Autenticar / logar usuário                                |
-|  `GET`   | http://localhost:7070/jardinagem/administrar               |    Mostrar todos para administrador                          |
+| :------: | :-----------------------------------: | :-------------------------------------------------------:    |
+|  `POST`  | /jardinagem/create                    |    Cadastrar usuário                                         |
+|          |
+|  `GET`   | /jardinagem/all                       |    Listar todos os usuários                                  |
+|  `GET`   | /jardinagem/login                     |    Autenticar / logar usuário                                |
+|  `GET`   | /jardinagem/administrar               |    Mostrar todos para administrador                          |
 
 </div>
 <br>
@@ -315,9 +319,21 @@ Para a execução desse projeto, foi necessário a utilização das seguintes de
 
 ## Acesse através do link:
 <br>
+
 <a href="https://reprograma-projeto-jardinagem-solidaria.vercel.app/">
-   
+   Clique aqui para acessar vercel.app
 </a>
+ 
+-  Adicione as rotas a serem testadas. 
+-  Exemplo : Rota para exibir todos os jardineiros : /jardinagem/exibirtodos/jardineiro
+   
+  - [ https://reprograma-projeto-jardinagem-solidaria.vercel.app/jardinagem/exibirtodos/jardineiro ]
+   
+  - Rota com Autenticação Requerida
+  - Resposta do Servidor : Sem autorização
+
+
+
 
 <br>
 
@@ -346,7 +362,7 @@ Para a execução desse projeto, foi necessário a utilização das seguintes de
 <img src ='./assets/foto_autora.jpeg' width = 200 alt = 'autora'>
 
 [Linkedin: www.linkedin.com/in/lucianagmbw] <br>
-[Curriculo: link do curriculo]<br>
+[Curriculo: https://drive.google.com/file/d/1eV-wFgg_8JMZ2XUUu4drsjLcFT7JUT5h/view?usp=sharing]<br>
 [Github Profile: https://github.com/lucianagmbw ]  <br>
 
 
