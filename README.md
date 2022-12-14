@@ -101,15 +101,12 @@ A construção do código separado em camadas permite a aplicação ficar mais l
    |    |
    |    |--📄 app.js
    |    |
-   |    |--📁 config
-   |    |    |--📄 database.js
-   |    |
-   |    |--📁 controllers
+   |    |    |--📁 controllers
    |    |    |--📄 doadorDeMudasController.js
    |    |    |--📄 espacoJardimController.js
    |    |    |--📄 jardineiroSolidarioController.js
-   |    |    |--📄 xxxxxxxxxxxxxx.js
-   |    |    |--📄 xxxxxxxxxxxxxx.js
+   |    |    |--📄 authController.js
+   |    |    |--📄 userController.js
    |    |
    |    |--📁 middlewares
    |         |- 📄 auth.js
@@ -121,11 +118,11 @@ A construção do código separado em camadas permite a aplicação ficar mais l
    |    |    |--📄 doadorDeMudasSchema.js
    |    |    |--📄 espacoJardimSchema.js
    |    |    |--📄 jardineiroSolidarioSchema.js
-   |    |    |--📄 xxxxxxxxxxx.js
-   |      |    
+   |    |    |--📄 userSchema.js
+   |    |    
         |--📁 routes
    |    |    |--📄 jardinagemSolidariaRoutes.js
-   |    |   
+   |    |    |--📄 userRoutes.js
    |
    |    |--📁 test
    |         |- 📄 api.test.js     
@@ -138,7 +135,7 @@ A construção do código separado em camadas permite a aplicação ficar mais l
    |- 📄 package.json
    |- 📄 README.md
    |- 📄 server.js
-
+   |- 📄 vercel.json
 ```
 
 
@@ -166,13 +163,13 @@ Para acessar as funcionalidades da plataforma é preciso que seja feito o cadast
 <div align = "center">
 
 |  Método  |                  Rota                       |                                        Descrição                                |
-| :------: | :--------------------------------------------------------:     | :-------------------------------------------------------:    |
-|  `POST`  | http://localhost:7070/jardinagem/cadastrar/jardineiro          |    Cadastra novos jardineiros                                |
-|  `PATCH` | http://localhost:7070/jardinagem/atualizar/jardineiro/:id      |    Atualiza dados dos jardineiros                            |
-|  `GET`   | http://localhost:7070/jardinagem/exibirtodos/jardineiro        |    Listar todos os jardineiros                               |
-|  `GET`   | http://localhost:7070/jardinagem/buscarpornome/jardineiro      |    Busca um jardineiro passando nome por parâmetro           |
-|  `GET`   | http://localhost:7070/jardinagem/buscar/jardineiro/:id         |    Atualizar senha do usuário buscando por ID                |
-| `DELETE` | http://localhost:7070/jardinagem/deletar/jardineiro/:id        |    Deletar registro de jardineiro buscando por ID            |
+| :------: | :-----------------------------------:     | :-------------------------------------------------------:
+|  `POST`  | /jardinagem/cadastrar/jardineiro          |    Cadastra novos jardineiros                                |
+|  `PATCH` | /jardinagem/atualizar/jardineiro/:id      |    Atualiza dados dos jardineiros                            |
+|  `GET`   | /jardinagem/exibirtodos/jardineiro        |    Listar todos os jardineiros                               |
+|  `GET`   | /jardinagem/buscarpornome/jardineiro      |    Busca um jardineiro passando nome por parâmetro           |
+|  `GET`   | /jardinagem/buscar/jardineiro/:id         |    Atualizar senha do usuário buscando por ID                |
+| `DELETE` | /jardinagem/deletar/jardineiro/:id        |    Deletar registro de jardineiro buscando por ID            |
 
 </div>
 <br>
@@ -213,6 +210,22 @@ Para acessar as funcionalidades da plataforma é preciso que seja feito o cadast
 <br>
 
 
+
+
+## Métodos POST/GET/ - *Cadastrando um usuário para autenticação* 
+<br>
+<div align = "center">
+
+|  Método  |                  Rota                       |                                        Descrição                                |
+| :------: | :--------------------------------------------------------: | :-------------------------------------------------------:    |
+|  `POST`  | http://localhost:7070/jardinagem/create                    |    Cadastrar usuário                                         |
+|     |
+|  `GET`   | http://localhost:7070/jardinagem/all                       |    Listar todos os usuários                                  |
+|  `GET`   | http://localhost:7070/jardinagem/login                     |    Autenticar / logar usuário                                |
+|  `GET`   | http://localhost:7070/jardinagem/administrar               |    Mostrar todos para administrador                          |
+
+</div>
+<br>
 
 
 
@@ -302,8 +315,8 @@ Para a execução desse projeto, foi necessário a utilização das seguintes de
 
 ## Acesse através do link:
 <br>
-<a href="https://reprograma-projeto-jardinagem-solidaria-26jb-bkb0bucgn.vercel.app/">
-    <img src="./assets/vercel-logo.png" width="80" height="80" />
+<a href="https://reprograma-projeto-jardinagem-solidaria.vercel.app/">
+   
 </a>
 
 <br>
@@ -315,10 +328,14 @@ Para a execução desse projeto, foi necessário a utilização das seguintes de
 # Implementações futuras
 <br>
 
--  Adicionar  empresas parceiras;
--  Alerta de locais precisando de doadores;
--  Adicionar uma página para cada jardim construído;
--  Adicionar um perfil de Empresas Parceiras;
+-  Adicionar testes automatizados.
+-  Adicionar mais validações  autenticação
+-  Construção do Frontend do Sistema Jardins Comunitários 
+-  Adicionar espaço  empresas parceiras
+-  Alerta de locais precisando de doadores/trabalhadores para facilitar o voluntariado.
+-  Adicionar uma página para cada jardim construído (incluindo imagens)
+-  Adicionar um perfil de Empresas Parceiras
+-  Mais ideias para acrescentar também são bem vindas, contate-me! <3 
 
 <br>
 
