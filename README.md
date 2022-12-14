@@ -362,11 +362,13 @@ Para a execução desse projeto, foi necessário a utilização das seguintes de
 <div align = "center">
 <img src ='./assets/foto_autora.jpeg' width = 200 alt = 'autora'>
 <br>
-
-<a>
-    <a href="www.linkedin.com/in/lucianagmbw"><img alt="LinkedIn" src="https://img.shields.io/badge/LucianaLima-LinkedIn-blue"><br>
-    <a href="https://drive.google.com/file/d/1eV-wFgg_8JMZ2XUUu4drsjLcFT7JUT5h/view?usp=sharing"><img alt="Curriculo" src="https://img.shields.io/badge/LucianaLima-Curriculo-yellow"><br>
-    <a href="https://github.com/lucianagmbw"><img alt="GithubProfile" src="https://img.shields.io/badge/LucianaLima-GithubProfile-violet"><br>
+-  Contatos: 
+<a> <br>
+    <a href="https://linkedin.com/in/lucianagmbw"><img alt="LinkedIn" src="https://img.shields.io/badge/LucianaLima-LinkedIn-blue">
+    <a href="https://drive.google.com/file/d/1eV-wFgg_8JMZ2XUUu4drsjLcFT7JUT5h/view?usp=sharing"><img alt="Curriculo" src="https://img.shields.io/badge/LucianaLima-Curriculo-yellow">
+    <a href="https://github.com/lucianagmbw"><img alt="GithubProfile" src="https://img.shields.io/badge/LucianaLima-GithubProfile-violet">
+    <br>
+   
 </a>
 
 <div align ='justify'>
